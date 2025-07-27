@@ -32,12 +32,6 @@ const ContactSection = () => {
       link: "mailto:2010.aminnazari@gmail.com"
     },
     {
-      icon: Phone,
-      label: "Phone",
-      value: "+1 (416) 833-1785",
-      link: "tel:+14168331785"
-    },
-    {
       icon: MapPin,
       label: "Location",
       value: "McMaster University, 1280 Main St W, Hamilton, ON L8S 4L8, Canada",
@@ -101,13 +95,6 @@ const ContactSection = () => {
               ))}
             </div>
 
-            <div className="mission-control-panel bg-primary/5 border-primary/20">
-              <h4 className="font-bold text-foreground mb-3">Office Hours</h4>
-              <div className="text-sm text-muted-foreground space-y-1">
-                <div>Monday - Friday: 9:00 AM - 5:00 PM EST</div>
-                <div>Response Time: Within 24 hours</div>
-              </div>
-            </div>
           </div>
 
           {/* Contact Form */}
@@ -166,26 +153,6 @@ const ContactSection = () => {
           </div>
         </div>
 
-        <div className="text-center mt-16">
-          <div className="mission-control-panel bg-accent/5 border-accent/20 max-w-2xl mx-auto">
-            <h4 className="font-bold text-foreground mb-3">
-              🌙 Join Our Lunar Mission
-            </h4>
-            <p className="text-muted-foreground mb-4">
-              Stay updated on our progress and be part of the future of space construction.
-            </p>
-            <div className="flex flex-col sm:flex-row gap-3">
-              <Input 
-                type="email" 
-                placeholder="Enter your email for updates"
-                className="flex-1"
-              />
-              <Button variant="space">
-                Subscribe
-              </Button>
-            </div>
-          </div>
-        </div>
       </div>
     </section>
   );
