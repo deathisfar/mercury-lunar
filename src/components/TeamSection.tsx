@@ -122,9 +122,9 @@ const TeamSection = () => {
 
         <div className="text-center mt-12">
           <p className="text-muted-foreground">
-            Interested in joining our mission?{" "}
+            Interested? Get in touch with us{" "}
             <a href="#contact" className="text-primary hover:text-primary-glow transition-colors">
-              Get in touch with us
+              here
             </a>
           </p>
         </div>
