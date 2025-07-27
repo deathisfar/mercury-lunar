@@ -43,7 +43,7 @@ const AboutSection = () => {
               Since our establishment in 2023 at McMaster University, Team MERCuRy has 
               progressed from initial research to prototype testing. Our innovative approach 
               combines lunar regolith simulant (LSP-2) with two-part resin using an 
-              automated mixing device designed for lunar brick production.
+              automated mixing device designed for lunar cement production.
             </p>
             <p className="text-muted-foreground leading-relaxed">
               Through partnerships with industry leaders and rigorous testing protocols, 
