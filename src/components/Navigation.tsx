@@ -32,14 +32,11 @@ const Navigation = () => {
               <a
                 key={item.name}
                 href={item.href}
-                className="text-foreground hover:text-primary transition-colors duration-200"
+                className={item.name === "Contact" ? "text-primary font-semibold border-b-2 border-primary pb-1" : "text-foreground hover:text-primary transition-colors duration-200"}
               >
                 {item.name}
               </a>
             ))}
-            <Button variant="hero" size="sm">
-              Support Our Mission
-            </Button>
           </div>
 
           {/* Mobile menu button */}
@@ -63,17 +60,12 @@ const Navigation = () => {
               <a
                 key={item.name}
                 href={item.href}
-                className="block px-3 py-2 text-foreground hover:text-primary transition-colors duration-200"
+                className={item.name === "Contact" ? "block px-3 py-2 text-primary font-semibold bg-primary/10 rounded" : "block px-3 py-2 text-foreground hover:text-primary transition-colors duration-200"}
                 onClick={() => setIsOpen(false)}
               >
                 {item.name}
               </a>
             ))}
-            <div className="px-3 py-2">
-              <Button variant="hero" size="sm" className="w-full">
-                Support Our Mission
-              </Button>
-            </div>
           </div>
         </div>
       )}

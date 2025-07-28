@@ -171,9 +171,11 @@ const DocumentsSection = () => {
           <p className="text-muted-foreground mb-4">
             Need access to additional documentation or have questions about our research?
           </p>
-          <Button variant="hero" size="lg">
-            <FileText className="w-5 h-5 mr-2" />
-            Request Access
+          <Button variant="hero" size="lg" asChild>
+            <a href="#contact">
+              <FileText className="w-5 h-5 mr-2" />
+              Request Access
+            </a>
           </Button>
         </div>
       </div>

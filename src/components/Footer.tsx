@@ -1,6 +1,6 @@
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
-import { Mail, Phone, MapPin, Github, Linkedin, Twitter } from "lucide-react";
+import { Mail, MapPin, Github, Linkedin, Twitter } from "lucide-react";
 
 const Footer = () => {
   const quickLinks = [
@@ -64,15 +64,6 @@ const Footer = () => {
                   className="hover:text-primary transition-colors text-sm"
                 >
                   2010.aminnazari@gmail.com
-                </a>
-              </div>
-              <div className="flex items-center gap-3 text-muted-foreground">
-                <Phone className="w-4 h-4 text-primary" />
-                <a 
-                  href="tel:+14168331785"
-                  className="hover:text-primary transition-colors text-sm"
-                >
-                  +1 (416) 833-1785
                 </a>
               </div>
               <div className="flex items-start gap-3 text-muted-foreground">
