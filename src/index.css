@@ -16,10 +16,10 @@
     --popover: 222 20% 12%;
     --popover-foreground: 210 40% 98%;
 
-    /* Primary - Space Blue */
-    --primary: 217 92% 60%;
+    /* Primary - Coca-Cola Red */
+    --primary: 354 95% 43%;
     --primary-foreground: 222 25% 8%;
-    --primary-glow: 217 92% 70%;
+    --primary-glow: 354 95% 55%;
 
     /* Secondary - Lunar Gray */
     --secondary: 215 15% 20%;
@@ -39,7 +39,7 @@
 
     --border: 215 15% 20%;
     --input: 215 15% 15%;
-    --ring: 217 92% 60%;
+    --ring: 354 95% 43%;
 
     --radius: 0.75rem;
 

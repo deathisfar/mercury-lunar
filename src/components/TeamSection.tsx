@@ -8,49 +8,59 @@ const TeamSection = () => {
       name: "Angela Tollis",
       role: "Team Lead",
       description: "Leading overall project coordination and strategic planning for lunar construction initiatives.",
-      expertise: ["Project Management", "Strategy", "Leadership"]
+      expertise: ["Project Management", "Strategy", "Leadership"],
+      linkedin: "https://linkedin.com/in/angela-tollis" // Replace with actual LinkedIn URL
     },
     {
       name: "Gabriel Cino",
       role: "Manufacturing Lead",
       description: "Overseeing manufacturing processes and quality control for mixing device production.",
-      expertise: ["Manufacturing", "Quality Control", "Process Design"]
+      expertise: ["Manufacturing", "Quality Control", "Process Design"],
+      linkedin: "https://linkedin.com/in/gabriel-cino" // Replace with actual LinkedIn URL
     },
     {
       name: "Kristen Di Loreto",
       role: "Research Lead",
       description: "Conducting research on polymer-regolith cement properties and optimization.",
-      expertise: ["Materials Science", "Research", "Testing"]
+      expertise: ["Materials Science", "Research", "Testing"],
+      linkedin: "https://linkedin.com/in/kristen-di-loreto" // Replace with actual LinkedIn URL
     },
     {
       name: "Aria Kennaley",
       role: "Outreach Lead",
       description: "Managing communications, partnerships, and public engagement initiatives.",
-      expertise: ["Communications", "Partnerships", "Outreach"]
+      expertise: ["Communications", "Partnerships", "Outreach"],
+      linkedin: "https://linkedin.com/in/aria-kennaley", // Replace with actual LinkedIn URL
+      alumni: true
     },
     {
       name: "Slader Moon",
       role: "Design Lead",
       description: "Leading mechanical design including agitation disk and mixing system components.",
-      expertise: ["Mechanical Design", "CAD", "System Integration"]
+      expertise: ["Mechanical Design", "CAD", "System Integration"],
+      linkedin: "https://linkedin.com/in/slader-moon" // Replace with actual LinkedIn URL
     },
     {
       name: "Emma Burdon",
       role: "Controls Lead",
       description: "Developing Arduino-based control systems for automated mixing operations.",
-      expertise: ["Controls", "Arduino", "Automation"]
+      expertise: ["Controls", "Arduino", "Automation"],
+      linkedin: "https://linkedin.com/in/emma-burdon", // Replace with actual LinkedIn URL
+      alumni: true
     },
     {
       name: "Amin Nazari",
       role: "Systems Engineer",
       description: "Ensuring system-level integration and performance optimization.",
-      expertise: ["Systems Engineering", "Integration", "Optimization"]
+      expertise: ["Systems Engineering", "Integration", "Optimization"],
+      linkedin: "https://linkedin.com/in/amin-nazari" // Replace with actual LinkedIn URL
     },
     {
       name: "Kaia Turchio",
       role: "Systems Engineer",
       description: "Supporting system analysis and technical documentation development.",
-      expertise: ["Systems Analysis", "Documentation", "Technical Writing"]
+      expertise: ["Systems Analysis", "Documentation", "Technical Writing"],
+      linkedin: "https://linkedin.com/in/kaia-turchio" // Replace with actual LinkedIn URL
     }
   ];
 
@@ -90,9 +100,16 @@ const TeamSection = () => {
                 
                 <div className="text-center space-y-2">
                   <h3 className="font-bold text-lg text-foreground">{member.name}</h3>
-                  <Badge variant="secondary" className="text-xs">
-                    {member.role}
-                  </Badge>
+                  <div className="flex flex-wrap justify-center gap-1">
+                    <Badge variant="secondary" className="text-xs">
+                      {member.role}
+                    </Badge>
+                    {member.alumni && (
+                      <Badge variant="outline" className="text-xs bg-primary/10 text-primary border-primary/30">
+                        Alumni
+                      </Badge>
+                    )}
+                  </div>
                 </div>
                 
                 <p className="text-sm text-muted-foreground leading-relaxed">
@@ -111,9 +128,16 @@ const TeamSection = () => {
                   <button className="p-2 hover:bg-primary/20 rounded-full transition-colors">
                     <Mail className="w-4 h-4 text-muted-foreground hover:text-primary" />
                   </button>
-                  <button className="p-2 hover:bg-primary/20 rounded-full transition-colors">
-                    <Linkedin className="w-4 h-4 text-muted-foreground hover:text-primary" />
-                  </button>
+                  {member.linkedin && (
+                    <a 
+                      href={member.linkedin} 
+                      target="_blank" 
+                      rel="noopener noreferrer"
+                      className="p-2 hover:bg-primary/20 rounded-full transition-colors"
+                    >
+                      <Linkedin className="w-4 h-4 text-muted-foreground hover:text-primary" />
+                    </a>
+                  )}
                 </div>
               </div>
             </div>
