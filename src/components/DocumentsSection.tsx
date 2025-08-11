@@ -6,66 +6,73 @@ const DocumentsSection = () => {
   const documents = [
     {
       title: "Critical Design Review (CDR)",
-      filename: "MERCuRy Phase B_ Critical Design Review (CDR).pdf",
+      filename: "MERCuRy Phase B_ Critical Design Review (CDR).pptx",
       date: "June 2025",
-      size: "2.4 MB",
+      size: "20.4 MB",
       description: "Comprehensive design validation and system specifications for the automated mixing device.",
       category: "Design Review",
-      status: "latest"
+      status: "latest",
+      downloadUrl: "https://github.com/deathisfar/mercury-lunar/releases/download/V1.0.0/MERCuRy.Phase.B_.Critical.Design.Review.CDR.pptx"
     },
     {
       title: "Milestone 1 Project Management Presentation",
       filename: "MERCuRy Milestone 1_ Project Management Presentation (PMP).pptx",
       date: "December 2024",
-      size: "1.8 MB",
+      size: "30.2 MB",
       description: "Project management overview and transition from research to development phase.",
       category: "Milestone",
-      status: "archived"
+      status: "archived",
+      downloadUrl: "https://github.com/deathisfar/mercury-lunar/releases/download/V1.0.0/MERCuRy.Milestone.1_.Project.Management.Presentation.PMP.pptx"
     },
     {
       title: "Technical Engineering Design Package",
       filename: "Final MERCURY TEDP Rev-A.docx",
       date: "February 2025",
-      size: "3.2 MB",
+      size: "20.8 MB",
       description: "Detailed technical specifications and engineering design documentation.",
       category: "Technical",
-      status: "archived"
+      status: "archived",
+      downloadUrl: "https://github.com/deathisfar/mercury-lunar/releases/download/V1.0.0/Final.MERCURY.TEDP.Rev-A.docx"
     },
     {
       title: "Preliminary Design Review (PDR)",
       filename: "RGXVIII - MERCuRy Phase A_ PDR.pptx",
       date: "February 2025",
-      size: "2.1 MB",
+      size: "28.5 MB",
       description: "Initial design concepts and feasibility analysis for lunar construction system.",
       category: "Design Review",
-      status: "archived"
+      status: "archived",
+      downloadUrl: "https://github.com/deathisfar/mercury-lunar/releases/download/V1.0.0/RGXVIII.-.MERCuRy.Phase.A_.Preliminary.Design.Review.PDR.pptx"
     },
     {
       title: "Progress Presentation 1",
       filename: "CAN-RGX MERCuRy PP1_ January 21.pptx",
       date: "January 2025",
-      size: "1.5 MB",
+      size: "32.1 MB",
       description: "First quarterly progress update and research findings.",
       category: "Progress",
-      status: "archived"
+      status: "archived",
+      downloadUrl: "https://github.com/deathisfar/mercury-lunar/releases/download/V1.0.0/CAN-RGX.MERCuRy.PP1_.January.21.pptx"
     },
     {
       title: "Progress Presentation 2",
       filename: "CAN-RGX MERCuRy PP2_ March 26.pptx",
       date: "March 2025",
-      size: "1.7 MB",
+      size: "29.7 MB",
       description: "Second quarterly progress update including prototype development.",
       category: "Progress",
-      status: "archived"
+      status: "archived",
+      downloadUrl: "https://github.com/deathisfar/mercury-lunar/releases/download/V1.0.0/CAN-RGX.MERCuRy.PP2_.March.26.pptx"
     },
     {
       title: "Progress Presentation 3",
       filename: "Copy of MERCuRy PP3_ Week of May 5.pptx",
       date: "May 2025",
-      size: "1.9 MB",
+      size: "31.4 MB",
       description: "Third quarterly progress update with testing results and system optimization.",
       category: "Progress",
-      status: "archived"
+      status: "archived",
+      downloadUrl: "https://github.com/deathisfar/mercury-lunar/releases/download/V1.0.0/Copy.of.MERCuRy.PP3_.Week.of.May.5.pptx"
     }
   ];
 
@@ -153,9 +160,11 @@ const DocumentsSection = () => {
                     <Eye className="w-4 h-4 mr-2" />
                     Preview
                   </Button>
-                  <Button variant="space" size="sm" className="flex-1">
-                    <Download className="w-4 h-4 mr-2" />
-                    Download
+                  <Button variant="space" size="sm" className="flex-1" asChild>
+                    <a href={doc.downloadUrl} target="_blank" rel="noopener noreferrer">
+                      <Download className="w-4 h-4 mr-2" />
+                      Download
+                    </a>
                   </Button>
                 </div>
                 
