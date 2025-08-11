@@ -5,10 +5,9 @@ import { componentTagger } from "lovable-tagger";
 
 // https://vitejs.dev/config/
 export default defineConfig(({ mode }) => ({
-  server: {
-    host: "::",
-    port: 8080,
-  },
+  plugins: [react()],
+  base: '/mercury-lunar/'   // IMPORTANT for GitHub Pages subpath
+  })
   plugins: [
     react(),
     mode === 'development' &&
