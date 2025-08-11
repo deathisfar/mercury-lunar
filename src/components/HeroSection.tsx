@@ -65,7 +65,9 @@ const HeroSection = () => {
               <div className="text-sm text-muted-foreground">Samples Target</div>
             </div>
             <div className="text-center">
-              <div className="text-3xl font-bold text-gradient-accent">703</div>
+              <div className="text-3xl font-bold text-gradient-accent">
+                {Math.floor((Date.now() - new Date('2023-01-01').getTime()) / (1000 * 60 * 60 * 24))}
+              </div>
               <div className="text-sm text-muted-foreground">Day Campaign</div>
             </div>
             <div className="text-center">

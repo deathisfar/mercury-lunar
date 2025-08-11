@@ -1,7 +1,7 @@
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
 import { Calendar, Users, Target, Zap } from "lucide-react";
-import labImage from "@/assets/lab-equipment.jpg";
+import labImage from "@/assets/team-mercury-about.png";
 
 const AboutSection = () => {
   const milestones = [
@@ -68,7 +68,7 @@ const AboutSection = () => {
           <div className="relative">
             <img 
               src={labImage} 
-              alt="Laboratory Equipment"
+              alt="Team MERCuRy at Canadian Space Conference"
               className="rounded-lg shadow-elegant hover-lift"
             />
           </div>

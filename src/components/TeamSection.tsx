@@ -1,6 +1,6 @@
 import { Badge } from "@/components/ui/badge";
 import { Mail, Linkedin } from "lucide-react";
-import teamImage from "@/assets/team-working.jpg";
+import teamImage from "@/assets/team-mercury-intro.png";
 
 const TeamSection = () => {
   const teamMembers = [
@@ -9,28 +9,28 @@ const TeamSection = () => {
       role: "Team Lead",
       description: "Leading overall project coordination and strategic planning for lunar construction initiatives.",
       expertise: ["Project Management", "Strategy", "Leadership"],
-      linkedin: "https://linkedin.com/in/angela-tollis" // Replace with actual LinkedIn URL
+      linkedin: "https://www.linkedin.com/in/angela-tollis/"
     },
     {
       name: "Gabriel Cino",
       role: "Manufacturing Lead",
       description: "Overseeing manufacturing processes and quality control for mixing device production.",
       expertise: ["Manufacturing", "Quality Control", "Process Design"],
-      linkedin: "https://linkedin.com/in/gabriel-cino" // Replace with actual LinkedIn URL
+      linkedin: "https://www.linkedin.com/in/cino-gabriel/"
     },
     {
       name: "Kristen Di Loreto",
       role: "Research Lead",
       description: "Conducting research on polymer-regolith cement properties and optimization.",
       expertise: ["Materials Science", "Research", "Testing"],
-      linkedin: "https://linkedin.com/in/kristen-di-loreto" // Replace with actual LinkedIn URL
+      linkedin: "https://www.linkedin.com/in/kris10d/"
     },
     {
       name: "Aria Kennaley",
       role: "Outreach Lead",
       description: "Managing communications, partnerships, and public engagement initiatives.",
       expertise: ["Communications", "Partnerships", "Outreach"],
-      linkedin: "https://linkedin.com/in/aria-kennaley", // Replace with actual LinkedIn URL
+      linkedin: "https://www.linkedin.com/in/aria-kennaley-203776203/",
       alumni: true
     },
     {
@@ -38,14 +38,14 @@ const TeamSection = () => {
       role: "Design Lead",
       description: "Leading mechanical design including agitation disk and mixing system components.",
       expertise: ["Mechanical Design", "CAD", "System Integration"],
-      linkedin: "https://linkedin.com/in/slader-moon" // Replace with actual LinkedIn URL
+      linkedin: "https://www.linkedin.com/in/slader-moon/"
     },
     {
       name: "Emma Burdon",
       role: "Controls Lead",
       description: "Developing Arduino-based control systems for automated mixing operations.",
       expertise: ["Controls", "Arduino", "Automation"],
-      linkedin: "https://linkedin.com/in/emma-burdon", // Replace with actual LinkedIn URL
+      linkedin: "https://www.linkedin.com/in/emma-burdon/",
       alumni: true
     },
     {
@@ -53,14 +53,14 @@ const TeamSection = () => {
       role: "Systems Engineer",
       description: "Ensuring system-level integration and performance optimization.",
       expertise: ["Systems Engineering", "Integration", "Optimization"],
-      linkedin: "https://linkedin.com/in/amin-nazari" // Replace with actual LinkedIn URL
+      linkedin: "https://www.linkedin.com/in/aminnazari2010/"
     },
     {
       name: "Kaia Turchio",
       role: "Systems Engineer",
       description: "Supporting system analysis and technical documentation development.",
       expertise: ["Systems Analysis", "Documentation", "Technical Writing"],
-      linkedin: "https://linkedin.com/in/kaia-turchio" // Replace with actual LinkedIn URL
+      linkedin: "https://www.linkedin.com/in/kaia-turchio-0a481330b/"
     }
   ];
 
