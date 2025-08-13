@@ -21,7 +21,7 @@ const Navigation = () => {
           <div className="flex items-center">
             <div className="flex-shrink-0 flex items-center space-x-3">
               <img 
-                src="./lovable-uploads/31c7cd4d-e498-4f7f-b75c-74f657d65fa7.png" 
+                src={logo}
                 alt="Team MERCuRy Logo" 
                 className="h-10 w-10 rounded-full"
               />
