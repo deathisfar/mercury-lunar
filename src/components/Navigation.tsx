@@ -19,12 +19,7 @@ const Navigation = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between h-16">
           <div className="flex items-center">
-            <div className="flex-shrink-0 flex items-center space-x-3">
-              <img 
-                src={logo}
-                alt="Team MERCuRy Logo" 
-                className="h-10 w-10 rounded-full"
-              />
+            <div className="flex-shrink-0 flex items-center">
               <h1 className="text-xl font-bold text-gradient-primary">
                 Team MERCuRy
               </h1>
