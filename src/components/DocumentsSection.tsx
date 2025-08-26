@@ -5,13 +5,23 @@ import { FileText, Download, Calendar, Eye } from "lucide-react";
 const DocumentsSection = () => {
   const documents = [
     {
+      title: "Phase C: Progress Presentation #4",
+      filename: "MERCuRy Phase C_ Progress Presentation 4_ Testing & Manufacturing Updates.pptx",
+      date: "August 2025",
+      size: "TBD",
+      description: "Latest testing results and manufacturing updates from Phase C development.",
+      category: "Progress",
+      status: "latest",
+      downloadUrl: "/documents/MERCuRy-Phase-C-PP4-Testing-Manufacturing-Updates.pptx"
+    },
+    {
       title: "Critical Design Review (CDR)",
       filename: "MERCuRy Phase B_ Critical Design Review (CDR).pptx",
       date: "June 2025",
       size: "20.4 MB",
       description: "Comprehensive design validation and system specifications for the automated mixing device.",
       category: "Design Review",
-      status: "latest",
+      status: "archived",
       downloadUrl: "https://github.com/deathisfar/mercury-lunar/releases/download/V1.0.0/MERCuRy.Phase.B_.Critical.Design.Review.CDR.pptx"
     },
     {
