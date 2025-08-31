@@ -5,11 +5,18 @@ import { Clock, Calendar, ExternalLink } from "lucide-react";
 const UpdatesSection = () => {
   const updates = [
     {
+      date: "August 11, 2025",
+      title: "Phase C: Progress Presentation #4 Completed",
+      description: "Delivered comprehensive testing and manufacturing updates presentation, showcasing latest progress in Phase C development and system optimization.",
+      category: "Milestone",
+      status: "latest"
+    },
+    {
       date: "July 16, 2025, 02:27 PM EDT",
       title: "Initial Mixing Tests Completed",
       description: "Successfully completed initial mixing tests with 35% resin ratio, demonstrating optimal polymer-regolith cement consistency for lunar construction applications.",
       category: "Testing",
-      status: "latest"
+      status: "completed"
     },
     {
       date: "June 2025",

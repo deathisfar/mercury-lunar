@@ -6,13 +6,13 @@ const DocumentsSection = () => {
   const documents = [
     {
       title: "Phase C: Progress Presentation #4",
-      filename: "MERCuRy Phase C_ Progress Presentation 4_ Testing & Manufacturing Updates.pptx",
+      filename: "MERCuRy PP4_ Week of August 11.pdf",
       date: "August 2025",
-      size: "TBD",
+      size: "2.1 MB",
       description: "Latest testing results and manufacturing updates from Phase C development.",
       category: "Progress",
       status: "latest",
-      downloadUrl: "/documents/MERCuRy-Phase-C-PP4-Testing-Manufacturing-Updates.pptx"
+      downloadUrl: "/documents/MERCuRy PP4_ Week of August 11.pdf"
     },
     {
       title: "Critical Design Review (CDR)",
