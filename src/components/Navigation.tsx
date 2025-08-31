@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { Button } from "@/components/ui/button";
 import { Menu, X } from "lucide-react";
+import mercuryLogo from "@/assets/mercury-logo.png";
 
 const Navigation = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -21,7 +22,7 @@ const Navigation = () => {
           <div className="flex items-center">
             <div className="flex-shrink-0 flex items-center space-x-3">
               <img 
-                src="/lovable-uploads/53bc61bd-11d8-4900-90a8-fcab89812def.png"
+                src={mercuryLogo}
                 alt="Team MERCuRy Mission Logo" 
                 className="h-12 w-12 object-contain"
               />
