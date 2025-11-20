@@ -9,7 +9,7 @@ export default defineConfig(({ mode }) => ({
     mode === "development" && componentTagger(),
   ].filter(Boolean),
 
-  base: "/mercury-lunar/",
+  base: "/",
 
   // optional dev server config (only used locally)
   server: {
