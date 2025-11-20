@@ -5,11 +5,18 @@ import { Clock, Calendar, ExternalLink } from "lucide-react";
 const UpdatesSection = () => {
   const updates = [
     {
+      date: "November 3-7, 2024",
+      title: "Test Flight Campaign Completed",
+      description: "Successfully conducted test flights and gathered 24 lunar samples over 5 days, marking a significant milestone in our sample collection capabilities.",
+      category: "Testing",
+      status: "latest"
+    },
+    {
       date: "August 11, 2025",
       title: "Phase C: Progress Presentation #4 Completed",
       description: "Delivered comprehensive testing and manufacturing updates presentation, showcasing latest progress in Phase C development and system optimization.",
       category: "Milestone",
-      status: "latest"
+      status: "completed"
     },
     {
       date: "July 16, 2025, 02:27 PM EDT",
