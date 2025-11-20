@@ -11,7 +11,7 @@ const AboutSection = () => {
     { date: "Jun 2025", title: "CDR Validation", description: "Critical Design Review", status: "completed" },
     { date: "Jul 2025", title: "Initial Testing", description: "Mixing tests completed", status: "completed" },
     { date: "Aug 2025", title: "Phase C: PP4", description: "Testing & Manufacturing Updates", status: "completed" },
-    { date: "Nov 2025", title: "Flight Campaign Complete", description: "24 lunar samples collected", status: "current" },
+    { date: "Nov 2025", title: "Flight Campaign Complete", description: "24 lunar cement samples made", status: "current" },
   ];
 
   const partners = [

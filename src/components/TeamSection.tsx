@@ -1,5 +1,6 @@
 import { Badge } from "@/components/ui/badge";
 import { Mail, Linkedin } from "lucide-react";
+import { Avatar, AvatarImage, AvatarFallback } from "@/components/ui/avatar";
 import teamImage from "@/assets/team-mercury-intro.JPG";
 
 const TeamSection = () => {
@@ -9,21 +10,24 @@ const TeamSection = () => {
       role: "Team Lead",
       description: "Leading overall project coordination and strategic planning for lunar construction initiatives.",
       expertise: ["Project Management", "Strategy", "Leadership"],
-      linkedin: "https://www.linkedin.com/in/angela-tollis/"
+      linkedin: "https://www.linkedin.com/in/angela-tollis/",
+      image: "/team-photos/angela-tollis.jpg"
     },
     {
       name: "Gabriel Cino",
       role: "Manufacturing Lead",
       description: "Overseeing manufacturing processes and quality control for mixing device production.",
       expertise: ["Manufacturing", "Quality Control", "Process Design"],
-      linkedin: "https://www.linkedin.com/in/cino-gabriel/"
+      linkedin: "https://www.linkedin.com/in/cino-gabriel/",
+      image: "/team-photos/gabriel-cino.jpg"
     },
     {
       name: "Kristen Di Loreto",
       role: "Research Lead",
       description: "Conducting research on polymer-regolith cement properties and optimization.",
       expertise: ["Materials Science", "Research", "Testing"],
-      linkedin: "https://www.linkedin.com/in/kris10d/"
+      linkedin: "https://www.linkedin.com/in/kris10d/",
+      image: "/team-photos/kristen-di-loreto.jpg"
     },
     {
       name: "Aria Kennaley",
@@ -38,7 +42,8 @@ const TeamSection = () => {
       role: "Design Lead",
       description: "Leading mechanical design including agitation disk and mixing system components.",
       expertise: ["Mechanical Design", "CAD", "System Integration"],
-      linkedin: "https://www.linkedin.com/in/slader-moon/"
+      linkedin: "https://www.linkedin.com/in/slader-moon/",
+      image: "/team-photos/slader-moon.jpg"
     },
     {
       name: "Emma Burdon",
@@ -53,14 +58,16 @@ const TeamSection = () => {
       role: "Systems Engineer",
       description: "Ensuring system-level integration and performance optimization.",
       expertise: ["Systems Engineering", "Integration", "Optimization"],
-      linkedin: "https://www.linkedin.com/in/aminnazari2010/"
+      linkedin: "https://www.linkedin.com/in/aminnazari2010/",
+      image: "/team-photos/amin-nazari.jpg"
     },
     {
       name: "Kaia Turchio",
       role: "Systems Engineer",
       description: "Supporting system analysis and technical documentation development.",
       expertise: ["Systems Analysis", "Documentation", "Technical Writing"],
-      linkedin: "https://www.linkedin.com/in/kaia-turchio-0a481330b/"
+      linkedin: "https://www.linkedin.com/in/kaia-turchio-0a481330b/",
+      image: "/team-photos/kaia-turchio.jpg"
     }
   ];
 
@@ -92,11 +99,12 @@ const TeamSection = () => {
           {teamMembers.map((member, index) => (
             <div key={index} className="team-card mission-control-panel group">
               <div className="space-y-4">
-                <div className="w-16 h-16 bg-primary/20 rounded-full flex items-center justify-center border border-primary/30 mx-auto group-hover:bg-primary/30 transition-colors">
-                  <span className="text-primary font-bold text-xl">
+                <Avatar className="w-16 h-16 mx-auto border-2 border-primary/30 group-hover:border-primary/50 transition-colors">
+                  {member.image && <AvatarImage src={member.image} alt={member.name} />}
+                  <AvatarFallback className="bg-primary/20 text-primary font-bold text-xl">
                     {member.name.split(' ').map(n => n[0]).join('')}
-                  </span>
-                </div>
+                  </AvatarFallback>
+                </Avatar>
                 
                 <div className="text-center space-y-2">
                   <h3 className="font-bold text-lg text-foreground">{member.name}</h3>
