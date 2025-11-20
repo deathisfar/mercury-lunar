@@ -9,8 +9,9 @@ const AboutSection = () => {
     { date: "Dec 2024", title: "Research Phase", description: "Milestone 1 PMP presentation", status: "completed" },
     { date: "Feb 2025", title: "PDR Completion", description: "Preliminary Design Review", status: "completed" },
     { date: "Jun 2025", title: "CDR Validation", description: "Critical Design Review", status: "completed" },
-    { date: "Jul 2025", title: "Flight Campaign", description: "24 samples over 2 days", status: "completed" },
-    { date: "Aug 2025", title: "Phase C: PP4", description: "Testing & Manufacturing Updates", status: "current" },
+    { date: "Jul 2025", title: "Initial Testing", description: "Mixing tests completed", status: "completed" },
+    { date: "Aug 2025", title: "Phase C: PP4", description: "Testing & Manufacturing Updates", status: "completed" },
+    { date: "Nov 2025", title: "Flight Campaign Complete", description: "24 lunar samples collected", status: "current" },
   ];
 
   const partners = [
