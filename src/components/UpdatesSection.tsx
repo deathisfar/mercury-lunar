@@ -7,7 +7,7 @@ const UpdatesSection = () => {
     {
       date: "November 3-7, 2024",
       title: "Test Flight Campaign Completed",
-      description: "Successfully conducted test flights and gathered 24 lunar samples over 5 days, marking a significant milestone in our sample collection capabilities.",
+      description: "Successfully conducted test flights and gathered 24 lunar cement samples over 5 days, marking a significant milestone in our sample collection capabilities.",
       category: "Testing",
       status: "latest"
     },
