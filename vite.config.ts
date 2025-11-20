@@ -11,6 +11,8 @@ export default defineConfig(({ mode }) => ({
 
   base: "/",
 
+  assetsInclude: ['**/*.JPG', '**/*.PNG', '**/*.JPEG'],
+
   // optional dev server config (only used locally)
   server: {
     host: "::",
