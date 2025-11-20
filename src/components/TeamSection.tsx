@@ -1,6 +1,6 @@
 import { Badge } from "@/components/ui/badge";
 import { Mail, Linkedin } from "lucide-react";
-import teamImage from "@/assets/team-mercury-intro.png";
+import teamImage from "@/assets/team-mercury-intro.JPG";
 
 const TeamSection = () => {
   const teamMembers = [
