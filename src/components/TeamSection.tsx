@@ -125,11 +125,8 @@ const TeamSection = () => {
                   ))}
                 </div>
                 
-                <div className="flex justify-center space-x-2 pt-2">
-                  <button className="p-2 hover:bg-primary/20 rounded-full transition-colors">
-                    <Mail className="w-4 h-4 text-muted-foreground hover:text-primary" />
-                  </button>
-                  {member.linkedin && (
+                {member.linkedin && (
+                  <div className="flex justify-center pt-2">
                     <a 
                       href={member.linkedin} 
                       target="_blank" 
@@ -138,8 +135,8 @@ const TeamSection = () => {
                     >
                       <Linkedin className="w-4 h-4 text-muted-foreground hover:text-primary" />
                     </a>
-                  )}
-                </div>
+                  </div>
+                )}
               </div>
             </div>
           ))}
