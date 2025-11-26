@@ -34,8 +34,7 @@ const TeamSection = () => {
       role: "Alumni",
       description: "Managing communications, partnerships, and public engagement initiatives.",
       expertise: ["Communications", "Partnerships", "Outreach"],
-      linkedin: "https://www.linkedin.com/in/aria-kennaley-203776203/",
-      alumni: true
+      linkedin: "https://www.linkedin.com/in/aria-kennaley-203776203/"
     },
     {
       name: "Slader Moon",
@@ -50,8 +49,7 @@ const TeamSection = () => {
       role: "Alumni",
       description: "Developing Arduino-based control systems for automated mixing operations.",
       expertise: ["Controls", "Arduino", "Automation"],
-      linkedin: "https://www.linkedin.com/in/emma-burdon/",
-      alumni: true
+      linkedin: "https://www.linkedin.com/in/emma-burdon/"
     },
     {
       name: "Amin Nazari",
@@ -112,11 +110,6 @@ const TeamSection = () => {
                     <Badge variant="secondary" className="text-xs">
                       {member.role}
                     </Badge>
-                    {member.alumni && (
-                      <Badge variant="outline" className="text-xs bg-primary/10 text-primary border-primary/30">
-                        Alumni
-                      </Badge>
-                    )}
                   </div>
                 </div>
                 
