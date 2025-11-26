@@ -31,7 +31,7 @@ const TeamSection = () => {
     },
     {
       name: "Aria Kennaley",
-      role: "Outreach Lead",
+      role: "Alumni",
       description: "Managing communications, partnerships, and public engagement initiatives.",
       expertise: ["Communications", "Partnerships", "Outreach"],
       linkedin: "https://www.linkedin.com/in/aria-kennaley-203776203/",
@@ -47,7 +47,7 @@ const TeamSection = () => {
     },
     {
       name: "Emma Burdon",
-      role: "Controls Lead",
+      role: "Alumni",
       description: "Developing Arduino-based control systems for automated mixing operations.",
       expertise: ["Controls", "Arduino", "Automation"],
       linkedin: "https://www.linkedin.com/in/emma-burdon/",
@@ -55,7 +55,7 @@ const TeamSection = () => {
     },
     {
       name: "Amin Nazari",
-      role: "Systems Engineer",
+      role: "Systems Lead",
       description: "Ensuring system-level integration and performance optimization.",
       expertise: ["Systems Engineering", "Integration", "Optimization"],
       linkedin: "https://www.linkedin.com/in/aminnazari2010/",
@@ -63,7 +63,7 @@ const TeamSection = () => {
     },
     {
       name: "Kaia Turchio",
-      role: "Systems Engineer",
+      role: "Outreach Lead",
       description: "Supporting system analysis and technical documentation development.",
       expertise: ["Systems Analysis", "Documentation", "Technical Writing"],
       linkedin: "https://www.linkedin.com/in/kaia-turchio-0a481330b/",
